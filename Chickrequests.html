@@ -1,12 +1,55 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chick requests</title>
 </head>
+
 <body>
-    <p> This is a file for Chick Requests from clients. <div> There is currently nothing in here, it will be updated in time </div> </p>
+    <p> This is a file for Chick Requests from clients.
+    <div> There is currently nothing in here, it will be updated in time </div>
+    </p>
     <br>
     <a href="Index.html"> Back to home page </a>
+    <!--(name of the youth, number of chicks, type of chicks, type of the farmer (starter/returning), among other details are recorded.-->
+    <div>
+        <div class="Chick">
+            <h3>Broiler</h3>
+            <p>Chicks purposly bred for meat production, currently in stock</p>
+        </div>
+
+        <div class="Chick">
+            <h3>Layer</h3>
+            <p>Chicks for laying eggs only. Out of stock currently</p>
+        </div>
+
+        <div class="Chick">
+            <h3>Breeder</h3>
+            <p>Chicks bred for production of fertilized eggs. Currently in stock and goes well with Layers</p>
+        </div>
+
+        <h3> To start, input the required information below</h3>
+
+        <ul class="requestinfo">
+            <label for="name"> Name </label> <br>
+
+            <input type="raido" id="Sfarmer" name="Starter Farmer" value="starter farmer" required>
+            <lable for="Male"> Starter Farmer</lable><br>
+            <input type="radio" id="Rfarmer" name="Returning Farmer" value="returning farmer" required>
+            <lable for="Female"> Returning Farmer</lable><br>
+            <!--another space here-->
+
+            <input type="text" id="name" required><br>
+            <label for="Number of chicks"> Number of chicks</label><br>
+            <p>For starter farmers you can't take no more than 100</p>
+            <p>Returning farmers can't take more than 500 chicks</p>
+            <input type="text" id="Number of chicks" required><br>
+
+        </ul>
+
+
+
 </body>
+
 </html>

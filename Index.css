@@ -1,0 +1,24 @@
+table {
+        font-family: Arial, sans-serif;
+        background-color: dimgrey;
+        border: 3px 0;
+        padding: 15px;
+
+}
+
+.nav-links {
+            background-color: rgb(59, 116, 73);
+            color: rgba(37, 68, 53, 0.205);
+            position:fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+}
+
+.Chick {
+            background-color: gray;
+            color: black;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+}

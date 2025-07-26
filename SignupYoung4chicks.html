@@ -11,18 +11,36 @@
     <h2> Please input the desired information as follows </h2>
 
     <div>
-        <label for="Firstname"> First name (Jina la kwanza): </label> <br>
-        <input type="text" id="Fname" required><br>
-        <label for="Lastname"> Last name (Jina la mwisho):</label><br>
-        <input type="text" id="Fname" required><br>
-        <lable for="Age"> Age (Umri):</lable><br>
-        <input type="text" id="Age" required> <br> <br> 
+        <ul class="Signup-info1">
+            <label for="Firstname"> First name (Jina la kwanza): </label> <br>
+            <input type="text" id="Fname" required><br>
+            <label for="Lastname"> Last name (Jina la mwisho):</label><br>
+            <input type="text" id="Fname" required><br>
+            <!--I had to separate the spaces here to not confuse myself between radio and text imput-->
+
+            <input type="raido" id="Male" name="Gender" value="male" required>
+            <lable for="Male"> Male / Mwanaume</lable>
+            <input type="radio" id="Female" name="Gender" value="female" required>
+            <lable for="Female"> Female / Kike </lable>
+
+            <lable for="Age"> Age (Umri):</lable><br>
+            <input type="text" id="Age" required> <br> <br>
+        </ul>
     </div>
+            <!--an extra separation here for CSS code so I don't get confused when designing-->
     <div>
-        <label for="Identification Number"> ID number:</label><br>
-        <input type="text" id="IDnumber" required> <br>
-        <label for="Location"> Location / Region:</label><br>
-        <input type="text" id="LocationRegion" required> <br><br>
+        <ul class="Signup-info2">
+            <label for="Identification Number"> ID number:</label><br>
+            <input type="text" id="IDnumber" required> <br>
+            <label for="Location"> Location / Region:</label><br>
+            <input type="text" id="LocationRegion" required> <br><br>
+            <label for="Recomender NIN number "> Input Recomender Nin number</label><br>
+            <input type="text" id="Recomender NIN number" required> <br>
+            <label for="youth NIN number"> Input your NIN number </label> <br>
+            <input type="text" id="youth NIN number" required> <br>
+            <lable for="Contact number"> Contact number</lable>
+            <input type="text" id="Contact number"> <br> <br>
+        </ul>
     </div>
     <div>
 
